@@ -123,7 +123,7 @@ button {
   margin-bottom: 40px;
   font-size: 25px;
   line-height: 1.5;
-  border-color: var(--primary-color);
+  border: 1px solid #ffe9cf;
 }
 .weather {
   background-color: var(--tertiary-color);
@@ -131,7 +131,7 @@ button {
   margin-bottom: 40px;
   font-size: 25px;
   line-height: 1.5;
-  border-color: var(--primary-color);
+  border: 1px solid #ffe9cf;
 }
 .yogurt {
   background-color: var(--tertiary-color);
@@ -139,7 +139,7 @@ button {
   margin-bottom: 40px;
   font-size: 25px;
   line-height: 1.5;
-  border-color: var(--primary-color);
+  border: 1px solid #ffe9cf;
 }
 .about-yoga {
   max-width: 500px;
@@ -148,6 +148,7 @@ button {
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
+  border: 1px solid #ffe9cf;
 }
 .about-weather {
   max-width: 500px;
@@ -156,6 +157,7 @@ button {
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
+  border: 1px solid #ffe9cf;
 }
 .about-yogurt {
   max-width: 500px;
@@ -164,6 +166,7 @@ button {
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
+  border: 1px solid #ffe9cf;
 }
 @media (max-width: 768px) {
   #photo {
@@ -174,7 +177,7 @@ button {
     font-size: 35px;
   }
   .email {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
   .name,
@@ -185,15 +188,37 @@ button {
   p {
     font-size: 25px;
   }
+  .home-heading {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .weather-info,
+  .yogurt-info,
+  .yoga-info {
+    text-align: center;
+    margin-top: 0;
+  }
   .yogurt,
   .weather,
   .yoga {
     background-image: var(--gradient);
     border: none;
   }
+  .about {
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
   .about-yoga,
   .about-weather,
   .about-yogurt {
-    max-width: 410px;
+    max-width: 330px;
+    background-color: transparent;
+    margin: 0 auto;
+    border: none;
+  }
+  .home-button {
+    margin-bottom: 10px;
   }
 }
