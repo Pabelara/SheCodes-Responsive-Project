@@ -142,31 +142,31 @@ button {
   border: 1px solid #ffe9cf;
 }
 .about-yoga {
-  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
   border: 1px solid #ffe9cf;
+  width: 100%;
 }
 .about-weather {
-  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
   border: 1px solid #ffe9cf;
+  width: 100%;
 }
 .about-yogurt {
-  max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: var(--tertiary-color);
   border: 1px solid #ffe9cf;
+  width: 100%;
 }
 @media (max-width: 768px) {
   #photo {
@@ -213,10 +213,10 @@ button {
   .about-yoga,
   .about-weather,
   .about-yogurt {
-    max-width: 330px;
     background-color: transparent;
     margin: 0 auto;
     border: none;
+    width: 100%;
   }
   .home-button {
     margin-bottom: 10px;
